@@ -11,6 +11,11 @@ const gaegu = Gaegu({
 export const metadata: Metadata = {
   title: "🎉 나리 집들이 초대장",
   description: "나리네 집들이에 초대합니다! 꼭 와주세요 💕",
+  openGraph: {
+    title: "🎉 나리 집들이 초대장",
+    description: "나리네 집들이에 초대합니다! 꼭 와주세요 💕",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
