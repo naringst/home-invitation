@@ -9,8 +9,8 @@ const gaegu = Gaegu({
 });
 
 export const metadata: Metadata = {
-  title: "🎉 홈 파티 초대장",
-  description: "우리 집에서 파티해요! 꼭 와주세요 💕",
+  title: "🎉 나리 집들이 초대장",
+  description: "나리네 집들이에 초대합니다! 꼭 와주세요 💕",
 };
 
 export default function RootLayout({
