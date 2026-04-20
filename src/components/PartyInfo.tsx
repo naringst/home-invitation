@@ -18,7 +18,7 @@ const infoCards = [
   {
     emoji: "📍",
     label: "장소",
-    value: "서울특별시 광진구\n천호대로 122길 27 301호",
+    value: process.env.NEXT_PUBLIC_ADDRESS || "",
     bg: "#d4b8e8",
   },
   {

@@ -2,9 +2,9 @@
 
 import { motion } from "framer-motion";
 
-const LATITUDE = 37.552579;
-const LONGITUDE = 127.087561;
-const ADDRESS = "서울특별시 광진구 천호대로 122길 27 301호";
+const LATITUDE = process.env.NEXT_PUBLIC_LATITUDE || "";
+const LONGITUDE = process.env.NEXT_PUBLIC_LONGITUDE || "";
+const ADDRESS = process.env.NEXT_PUBLIC_ADDRESS || "";
 
 export default function MapSection() {
   const kakaoMapUrl = `https://map.kakao.com/link/map/${encodeURIComponent(ADDRESS)},${LATITUDE},${LONGITUDE}`;
