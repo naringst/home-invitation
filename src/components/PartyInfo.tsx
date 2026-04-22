@@ -6,13 +6,13 @@ const infoCards = [
   {
     emoji: "📅",
     label: "날짜",
-    value: "2026년 4월 20일 (월)",
+    value: "2026년 4월 24일 (금)",
     bg: "#ffe8a3",
   },
   {
     emoji: "⏰",
     label: "시간",
-    value: "오후 7시부터",
+    value: "저녁 7시부터",
     bg: "#b8e8d0",
   },
   {
