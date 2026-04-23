@@ -17,9 +17,15 @@ const infoCards = [
   },
   {
     emoji: "📍",
-    label: "장소",
-    value: process.env.NEXT_PUBLIC_ADDRESS || "",
+    label: "1차 장소",
+    value: "장인석 닭한마리",
     bg: "#d4b8e8",
+  },
+  {
+    emoji: "🏠",
+    label: "2차 장소",
+    value: "우리집",
+    bg: "#f0b8d4",
   },
   {
     emoji: "👗",
